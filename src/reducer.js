@@ -1,3 +1,5 @@
+// редуктор
+
 function counter(state, action) {
     if (state === underfined) {
         return {count: 0};
@@ -13,6 +15,6 @@ function counter(state, action) {
         default:
             return state;        
     }
-}
+};
 
 export default counter;
