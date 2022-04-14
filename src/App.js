@@ -28,6 +28,6 @@ function mapDispatchToProps(dispatch) {
 let connectedComponent = connect(
     mapStateToProps,
     mapDispatchToProps
-) (counter);
+) (Counter);
 
 export default connectedComponent;

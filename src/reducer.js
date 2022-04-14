@@ -1,7 +1,7 @@
 // редуктор
 
 function counter(state, action) {
-    if (state === underfined) {
+    if (state === undefined) {
         return {count: 0};
     }
 
